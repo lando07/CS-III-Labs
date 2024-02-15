@@ -31,7 +31,7 @@ public class SyntaxChecker {
 		if (exp.length() < 2)
 			return false;
 		char[] expChr = exp.toCharArray();
-		Map<Character, Character> symbolMap = new HashMap<Character, Character>();
+		Map<Character, Character> symbolMap = new HashMap<>();
 		symbolMap.put('(', ')');
 		symbolMap.put('{', '}');
 		symbolMap.put('[', ']');
